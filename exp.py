@@ -54,7 +54,6 @@ for link in links:
 print(len(all_link))
 
 
-
 for url in all_link:
     driver.get(url)
     sleep(2)
@@ -110,7 +109,7 @@ driver.quit()
 
 
 
-
+# jhskjh
 
 
 # a=driver.find_element_by_xpath('//div[@class="aj"]//h2').text
