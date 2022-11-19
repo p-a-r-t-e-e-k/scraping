@@ -109,7 +109,6 @@ driver.quit()
 
 
 
-# jhskjh
 
 
 # a=driver.find_element_by_xpath('//div[@class="aj"]//h2').text
