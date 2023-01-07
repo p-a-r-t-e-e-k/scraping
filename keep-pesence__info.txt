@@ -1,2 +1,0 @@
-the keep-presence.py file is build for automation.
-the mouse will be continuesly move over the screen while its running
