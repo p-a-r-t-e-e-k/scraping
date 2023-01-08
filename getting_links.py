@@ -1,3 +1,4 @@
+# import
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
@@ -5,28 +6,36 @@ from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 import pandas as pd
 
-url="https://www.tuttitalia.it/scuole/"
+# creating driver with chrome, maximize window, clear cooky
 driver=webdriver.Chrome(ChromeDriverManager().install())
 driver.maximize_window()
 driver.delete_all_cookies()
+
+# opening main page in chrome using driver.get()
+url="https://www.tuttitalia.it/scuole/"
 driver.get(url)
 sleep(3)
 
+# try to accept cooky
 try:
     cooky=driver.find_element_by_xpath('//a[@id="cookieChoiceDismiss"]')
     cooky.click()
     sleep(1)
 except: pass
 
-
+# declearation of lists
 all_links=[]
 all_school_link=[]
+
+# getting the all ~20 links of region and adding in list (all_links)
 all_tag=driver.find_elements_by_xpath('//table[@class="ct"]//td/a')
 for one_tag in all_tag:
     href=one_tag.get_attribute("href")
     all_links.append(href)
 print(len(all_links),len(all_school_link))
 
+# opening links in list (all_lisnks)
+# getting sublinks and adding in list (all_school_link)
 for link in all_links:
     driver.get(link)
     sleep(1)
@@ -35,41 +44,23 @@ for link in all_links:
             all_tag=driver.find_elements_by_xpath('//table[@class="ct"]//td/a')
             for one_tag in all_tag:
                 href=one_tag.get_attribute("href")
-                all_links.append(href)
-            print(len(all_links),".......")
+                all_school_link.append(href)
+            print(len(all_school_link),".......")
 
     except Exception as e:
-        sch_url = driver.current_url
-        all_school_link.append(sch_url)
-        print(len(all_school_link),"*******")
-        # print(e)
+        print(e,"---------------------in except")
 
+        
+# creating dataframe of list (all_school_link)
 data1={
-    "Page Link":all_links
+    "Page Link":all_school_link
 }
 df1=pd.DataFrame(data1)
 sleep(0.5)
 
-data2={
-    "School Link":all_school_link
-}
-df2=pd.DataFrame(data2)
-sleep(0.5)
 
+# making csv
 df1.to_csv('tuttitalia_links.csv',index=False)
-df2.to_csv('tuttitalia_School_links.csv',index=False)
 
-
-
+# quit driver and close/stop all
 driver.quit()
-
-#   //table[@class="ct"]//td/a     school by region
-#   //table[@class="ct"]//td/a     schools in the provinces 
-#   //table[@class="ct"]//td/a     Schools in the city
-#   //div[@class="aj"]            school info outer box   all
-
-#   //div[@class="aj"]//h2                                                      grade in loop
-#   //div[@class="aj"]/div[@class="if"]/div[3]                                  class if  1 2 3
-#   //div[@class="aj"]/div[@class="if"]/div[2]/h3                               school name
-#   //div[@class="aj"]/div[@class="if"]/div[3]/i                                type
-#   //div[@class="aj"]/div[@class="if"]/div[3]/code                             code
