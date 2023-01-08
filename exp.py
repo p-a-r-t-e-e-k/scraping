@@ -5,43 +5,19 @@ from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 import pandas as pd
 
-# url="https://www.tuttitalia.it/scuole/"
-# url="https://www.tuttitalia.it/abruzzo/58-altino/89-scuole/"
-
-# url="https://www.tuttitalia.it/abruzzo/provincia-di-chieti/12-scuole/"
-# url="https://www.tuttitalia.it/abruzzo/provincia-di-pescara/95-scuole/"
-# url="https://www.tuttitalia.it/abruzzo/provincia-dell-aquila/80-scuole/"
-# url='https://www.tuttitalia.it/abruzzo/provincia-di-teramo/45-scuole/'
-# url="https://www.tuttitalia.it/basilicata/provincia-di-matera/14-scuole/"
-# url='https://www.tuttitalia.it/basilicata/provincia-di-potenza/86-scuole/'
-# url="https://www.tuttitalia.it/calabria/provincia-di-catanzaro/68-scuole/"
-# url="https://www.tuttitalia.it/calabria/provincia-di-reggio-calabria/88-scuole/"
-# url="https://www.tuttitalia.it/calabria/provincia-di-cosenza/79-scuole/"
-# url="https://www.tuttitalia.it/calabria/provincia-di-vibo-valentia/25-scuole/"
-# url="https://www.tuttitalia.it/calabria/provincia-di-crotone/16-scuole/"
-# url="https://www.tuttitalia.it/campania/provincia-di-avellino/49-scuole/"
-# url="https://www.tuttitalia.it/campania/provincia-di-napoli/43-scuole/"
-url=''
-
 
 driver=webdriver.Chrome(ChromeDriverManager().install())
 driver.maximize_window()
 driver.delete_all_cookies()
+
+
+# url="https://www.tuttitalia.it/abruzzo/58-altino/89-scuole/"
+url="https://www.tuttitalia.it/abruzzo/provincia-di-chieti/12-scuole/"
+
+
 driver.get(url)
 sleep(2)
 
-# data1={
-#     "Region":[''],
-#     "Provincia":"",
-#     "City":"",
-#     "Grade":"",
-#     "Name Of School":"",
-#     "Address":"",
-#     "Type":"",
-#     "Code":""
-# }
-
-# df1=pd.DataFrame(data1)
 
 df1=pd.read_csv('Inform_1000.csv')
 
@@ -104,46 +80,3 @@ df1.to_csv("Inform_1000.csv")
 
 
 driver.quit()
-
-
-
-
-
-
-
-# a=driver.find_element_by_xpath('//div[@class="aj"]//h2').text
-# print(a)
-# a=driver.find_element_by_xpath('//div[@class="aj"]/div[@class="if"]/div[2]').text
-# print(a)
-# a=driver.find_element_by_xpath('//div[@class="aj"]/div[@class="if"]/div[2]/h3 ').text
-# print(a)
-# a=driver.find_element_by_xpath('//div[@class="aj"]/div[@class="if"]/div[3]/i').text
-# print(a)
-# a=driver.find_element_by_xpath('//div[@class="aj"]/div[@class="if"]/div[3]/code').text
-# print(a)
-
-# get_url = driver.current_url
-# print(get_url,"0000000000000")
-#   //table[@class="ct"]//td/a     school by region
-#   //table[@class="ct"]//td/a     schools in the provinces 
-#   //table[@class="ct"]//td/a     Schools in the city
-#   //div[@class="aj"]            school info outer box   all
-
-#   //div[@class="aj"]/div[1]/h2                                                     grade in loop
-#   //div[@class="aj"]/div[@class="if"]/div[3]                                  class if  1 2 3
-#   //div[@class="aj"]/div[@class="if"]/div[2]/h3                               school name
-#   //div[@class="aj"]/div[@class="if"]/div[3]/i                                type
-#   //div[@class="aj"]/div[@class="if"]/div[3]/code                             code
-
-
-
-#   //table[@class="ct"]//td/a     school by region
-#   //table[@class="ct"]//td/a     schools in the provinces 
-#   //table[@class="ct"]//td/a     Schools in the city
-#   //div[@class="aj"]            school info outer box   all
-
-#   //div[@class="aj"]/div[1]/h2                                                grade in loop
-#   //div[@class="aj"]/div[@class="if"]/div[3]                                  class if  1 2 3
-#   //div[@class="aj"]/div[@class="if"]/div[2]/h3                               school name
-#   //div[@class="aj"]/div[@class="if"]/div[3]/i                                type
-#   //div[@class="aj"]/div[@class="if"]/div[3]/code                             code
