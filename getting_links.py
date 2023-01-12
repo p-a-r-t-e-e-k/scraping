@@ -1,4 +1,3 @@
-# imports
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
@@ -23,8 +22,7 @@ try:
 except: pass
 
 # declearation of lists
-all_links=[]
-all_school_link=[]
+all_links,all_school_link=[],[]
 
 # getting the all ~20 links of region and adding in list (all_links)
 all_tag=driver.find_elements(By.XPATH,'//table[@class="ct"]//td/a')
