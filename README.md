@@ -26,7 +26,9 @@ It Is Designed To Automate The Process Of Accessing And Navigating Through Web P
 1. Run the 1st script: `getting_links.py`
 2. This script well make csv file: `tuttitalia_links.csv`
 3. This csv have all links of school area.
-4. Run the 2nd script: `information.py`
+4. Now we run 2nd script for testing: `experiment.py`
+5. This script well make csv file: `inform_few.csv`
+4. Run the 3nd script: `information.py`
 5. This script well make csv file: `inform.csv`
 6. The script will output the result of the scraping school's data.
 
