@@ -1,0 +1,192 @@
+,Region,Provincia,City,Grade,Name Of School,Address,Type,Code
+0,,,,,,,,
+1,Abruzzo,Provincia di Chieti,Altino,Scuola dell'Infanzia (2),Selva,"Selva
+Via Teofilo Patini 40
+66040 Altino CH
+Istituto principale:
+CHIC80600P Casoli G. De Petra - Casoli",Scuola statale,CHAA80604P
+2,Abruzzo,Provincia di Chieti,Altino,Scuola dell'Infanzia (2),Santa Rita da Cascia,"Santa Rita da Cascia
+Via della Madonna 30/F
+66040 Altino CH",Scuola paritaria,CH1A001002
+3,Abruzzo,Provincia di Chieti,Altino,Scuola Primaria (1),Altino Capoluogo,"Altino Capoluogo
+Via della Madonna 1
+66040 Altino CH
+Istituto principale:
+CHIC80600P Casoli G. De Petra - Casoli",Scuola statale,CHEE80602T
+4,Abruzzo,Provincia di Chieti,Altino,Scuola Secondaria di primo grado (1),Altino - IC Casoli,"Altino - IC Casoli
+Via San Pietro 1
+66040 Altino CH
+Istituto principale:
+CHIC80600P Casoli G. De Petra - Casoli",Scuola statale,CHMM80602R
+5,Abruzzo,Provincia di Chieti,Altino,Scuola Secondaria di secondo grado (5),Liceo delle Scienze Umane,"Liceo Scienze Umane
+Liceo delle Scienze Umane
+Via del Campo Stortivo 35
+66043 Casoli CH
+Istituto principale:
+CHIS00300B Algeri Marino",Scuola statale,CHPM00301V
+6,Abruzzo,Provincia di Chieti,Altino,Scuola Secondaria di secondo grado (5),Lic. Sc. Algeri Marino,"Liceo Scientifico
+Lic. Sc. Algeri Marino
+Via del Campo 35
+66043 Casoli CH
+Istituto principale:
+CHIS00300B Algeri Marino
+Percorsi di Studio:
+· LICEO SCIENTIFICO",Scuola statale,CHPS00301T
+7,Abruzzo,Provincia di Chieti,Altino,Scuola Secondaria di secondo grado (5),Ist. Prof. Casoli - Iis Algeri Marino,"Istituto Professionale
+Ist. Prof. Casoli - Iis Algeri Marino
+Via del Campo S.N.C.
+66043 Casoli CH
+Istituto principale:
+CHIS00300B Algeri Marino
+Percorsi di Studio:
+· MANUTENZIONE E ASSISTENZA TECNICA",Scuola statale,CHRI003013
+8,Abruzzo,Provincia di Chieti,Altino,Scuola Secondaria di secondo grado (5),Ist. Tec. Algeri Marino,"Istituto Tecnico Economico
+Ist. Tec. Algeri Marino
+Via del Campo Sportivo 35
+66043 Casoli CH
+Istituto principale:
+CHIS00300B Algeri Marino
+Percorsi di Studio:
+· AMMINISTRAZIONE, FINANZA E MARKETING",Scuola statale,CHTD00301N
+9,Abruzzo,Provincia di Chieti,Altino,Scuola Secondaria di secondo grado (5),Ist.T. Agrar. Agroal. e Agroind.,"Istituto Tecnico Tecnologico
+Ist.T. Agrar. Agroal. e Agroind.
+Via del Campo Sportivo 35
+66043 Casoli CH
+Istituto principale:
+CHIS00300B Algeri Marino",Scuola statale,CHTF003021
+10,Abruzzo,Provincia di Chieti,Frisa,Scuola dell'Infanzia (1),Frisa Capoluogo,"Frisa Capoluogo
+Via della Madonna 1
+66030 Frisa CH
+Istituto principale:
+CHIC839002 Lanciano Don L. Milani - Lanciano",Scuola statale,CHAA839064
+11,Abruzzo,Provincia di Chieti,Frisa,Scuola Primaria (1),Frisa Capoluogo,"Frisa Capoluogo
+Via Madonna del Popolo
+66030 Frisa CH
+Istituto principale:
+CHIC839002 Lanciano Don L. Milani - Lanciano",Scuola statale,CHEE839036
+12,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di primo grado (1),Frisa,"Frisa
+Via XXIV Maggio
+66030 Frisa CH
+Istituto principale:
+CHIC839002 Lanciano Don L. Milani - Lanciano",Scuola statale,CHMM839013
+13,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),V. Emanuele II,"Liceo Classico
+V. Emanuele II
+Via Bologna 8
+66034 Lanciano CH
+Istituto principale:
+CHIS00900A V. Emanuele II
+Percorsi di Studio:
+· LICEO CLASSICO",Scuola statale,CHPC00901N
+14,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Liceo De Titta - Iis De Titta Fermi,"Liceo Linguistico e delle Scienze Umane
+Liceo De Titta - Iis De Titta Fermi
+Piazza Martiri VI Ottobre 1
+66034 Lanciano CH
+Istituto principale:
+CHIS019001 De Titta - Fermi
+Percorsi di Studio:
+· LICEO LINGUISTICO
+· LICEO SCIENZE UMANE
+· LICEO SCIENZE UMANE - OPZIONE ECONOMICO SOCIALE",Scuola statale,CHPM01901C
+15,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Da Vinci,"Liceo Scientifico
+Da Vinci
+Via Guido Rosato 5
+66034 Lanciano CH
+Istituto principale:
+CHIS01100A Da Vinci - De Giorgio",Scuola statale,CHPS01101R
+16,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Liceo G. Galilei di Lanciano,"Liceo Scientifico
+Liceo G. Galilei di Lanciano
+Via Don Minzoni 11
+66034 Lanciano CH
+Percorsi di Studio:
+· LICEO SCIENTIFICO
+· LICEO SCIENTIFICO - OPZIONE SCIENZE APPLICATE
+· LICEO SCIENTIFICO - SEZIONE AD INDIRIZZO SPORTIVO",Scuola statale,CHPS02000E
+17,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Ist. Prof. P. De Giorgio - Iis da Vinci,"Istituto Professionale
+Ist. Prof. P. De Giorgio - Iis da Vinci
+Via Barrella Snc
+66034 Lanciano CH
+Istituto principale:
+CHIS01100A Da Vinci - De Giorgio
+Percorsi di Studio:
+· SERVIZI SOCIO-SANITARI
+· MANUTENZIONE E ASSISTENZA TECNICA
+· SERVIZI PER LA SANITA' E L'ASSISTENZA SOCIALE",Scuola statale,CHRC011019
+18,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Istt. d'Arte Palizzi - Iis V. Emanuele,"Liceo Artistico
+Istt. d'Arte Palizzi - Iis V. Emanuele
+Via Galileo Ferraris 13
+66034 Lanciano CH
+Istituto principale:
+CHIS00900A V. Emanuele II
+Percorsi di Studio:
+· LICEO ARTISTICO ARCHITETTURA E AMBIENTE
+· LICEO ARTISTICO ARTISTICO NUOVO ORDINAMENTO
+· LICEO ARTISTICO DESIGN - ARTE DEI METALLI, DELL'OREFICERIA E DEL CORALLO
+· LICEO ARTISTICO DESIGN - ARTE DELLA MODA",Scuola statale,CHSD009017
+19,Abruzzo,Provincia di Chieti,Frisa,Scuola dell'Infanzia (1),Frisa Capoluogo,"Frisa Capoluogo
+Via della Madonna 1
+66030 Frisa CH
+Istituto principale:
+CHIC839002 Lanciano Don L. Milani - Lanciano",Scuola statale,CHAA839064
+20,Abruzzo,Provincia di Chieti,Frisa,Scuola Primaria (1),Frisa Capoluogo,"Frisa Capoluogo
+Via Madonna del Popolo
+66030 Frisa CH
+Istituto principale:
+CHIC839002 Lanciano Don L. Milani - Lanciano",Scuola statale,CHEE839036
+21,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di primo grado (1),Frisa,"Frisa
+Via XXIV Maggio
+66030 Frisa CH
+Istituto principale:
+CHIC839002 Lanciano Don L. Milani - Lanciano",Scuola statale,CHMM839013
+22,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),V. Emanuele II,"Liceo Classico
+V. Emanuele II
+Via Bologna 8
+66034 Lanciano CH
+Istituto principale:
+CHIS00900A V. Emanuele II
+Percorsi di Studio:
+· LICEO CLASSICO",Scuola statale,CHPC00901N
+23,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Liceo De Titta - Iis De Titta Fermi,"Liceo Linguistico e delle Scienze Umane
+Liceo De Titta - Iis De Titta Fermi
+Piazza Martiri VI Ottobre 1
+66034 Lanciano CH
+Istituto principale:
+CHIS019001 De Titta - Fermi
+Percorsi di Studio:
+· LICEO LINGUISTICO
+· LICEO SCIENZE UMANE
+· LICEO SCIENZE UMANE - OPZIONE ECONOMICO SOCIALE",Scuola statale,CHPM01901C
+24,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Da Vinci,"Liceo Scientifico
+Da Vinci
+Via Guido Rosato 5
+66034 Lanciano CH
+Istituto principale:
+CHIS01100A Da Vinci - De Giorgio",Scuola statale,CHPS01101R
+25,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Liceo G. Galilei di Lanciano,"Liceo Scientifico
+Liceo G. Galilei di Lanciano
+Via Don Minzoni 11
+66034 Lanciano CH
+Percorsi di Studio:
+· LICEO SCIENTIFICO
+· LICEO SCIENTIFICO - OPZIONE SCIENZE APPLICATE
+· LICEO SCIENTIFICO - SEZIONE AD INDIRIZZO SPORTIVO",Scuola statale,CHPS02000E
+26,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Ist. Prof. P. De Giorgio - Iis da Vinci,"Istituto Professionale
+Ist. Prof. P. De Giorgio - Iis da Vinci
+Via Barrella Snc
+66034 Lanciano CH
+Istituto principale:
+CHIS01100A Da Vinci - De Giorgio
+Percorsi di Studio:
+· SERVIZI SOCIO-SANITARI
+· MANUTENZIONE E ASSISTENZA TECNICA
+· SERVIZI PER LA SANITA' E L'ASSISTENZA SOCIALE",Scuola statale,CHRC011019
+27,Abruzzo,Provincia di Chieti,Frisa,Scuola Secondaria di secondo grado (6),Istt. d'Arte Palizzi - Iis V. Emanuele,"Liceo Artistico
+Istt. d'Arte Palizzi - Iis V. Emanuele
+Via Galileo Ferraris 13
+66034 Lanciano CH
+Istituto principale:
+CHIS00900A V. Emanuele II
+Percorsi di Studio:
+· LICEO ARTISTICO ARCHITETTURA E AMBIENTE
+· LICEO ARTISTICO ARTISTICO NUOVO ORDINAMENTO
+· LICEO ARTISTICO DESIGN - ARTE DEI METALLI, DELL'OREFICERIA E DEL CORALLO
+· LICEO ARTISTICO DESIGN - ARTE DELLA MODA",Scuola statale,CHSD009017
